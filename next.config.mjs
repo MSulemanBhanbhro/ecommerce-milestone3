@@ -7,7 +7,6 @@ const nextConfig = {
           hostname: 'fakestoreapi.com',
         },
       ],
-      domains: ['fakestoreapi.com'], // Adding this as well to ensure both remote patterns and domains work
     },
   };
   
