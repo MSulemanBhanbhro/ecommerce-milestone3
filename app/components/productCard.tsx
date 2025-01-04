@@ -45,7 +45,7 @@ const Productcard = ({product}: Props) => {
                 <h2 className='text-lg cursor-pointer transition-all hover:underline sm:w-full sm:truncate hover:text-blue-500 mt-2 font-semibold text-black'>{product.title}</h2>
             </Link>
             <div className='flex items-center '>
-              {ratingArray.map((star) => (
+              {ratingArray.map(() => (
                 <StarIcon key={Math.random() * 1000} size={16} fill='yellow' className='text-yellow-500'/>
               ))}
             </div>

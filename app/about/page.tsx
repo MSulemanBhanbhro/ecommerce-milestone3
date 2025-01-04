@@ -22,7 +22,7 @@ const About = () => {
             <div className="relative bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 ease-in-out">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Story</h2>
               <p className="leading-relaxed text-base text-gray-600">
-                Founded in 2024, we started as a small online store with a mission to provide high-quality products at affordable prices. Over the years, we've expanded our offerings and built a loyal customer base by staying true to our values of transparency, excellence, and customer-first mentality.
+                Founded in 2024, we started as a small online store with a mission to provide high-quality products at affordable prices. Over the years, we &rsquo ve expanded our offerings and built a loyal customer base by staying true to our values of transparency, excellence, and customer-first mentality.
               </p>
             </div>
           </div>
