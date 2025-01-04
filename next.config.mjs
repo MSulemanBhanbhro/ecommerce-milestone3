@@ -7,7 +7,10 @@ const nextConfig = {
                 hostname:"fakestoreapi.com",
             }
         ]
-    }
+    },
+    images: {
+        domains: ['fakestoreapi.com'], // Add the external image domain here
+      },
 };
 
 export default nextConfig;
