@@ -39,7 +39,7 @@ const Productcard = ({product}: Props) => {
     <>
     <div className="p-4">
         <div className="w-[200px] h-[500px] ">
-            <Image src={`https://fakestoreapi.com/img/${product.image}`} alt={product.title} width={100} height={100} className="w-[80%] h-[80%] object-contain  " />
+            <Image src={product.image} alt={product.title} width={100} height={100} className="w-[80%] h-[80%] object-contain  " />
             <p className='mt-0 text-xs text-gray-600 capitalize'>{product.category}</p>
             <Link href={`/product/product-details/${product.id}`}>
                 <h2 className='text-lg cursor-pointer transition-all hover:underline sm:w-full sm:truncate hover:text-blue-500 mt-2 font-semibold text-black'>{product.title}</h2>
